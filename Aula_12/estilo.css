@@ -1,0 +1,122 @@
+
+  @charset "UTF-8";
+  @font-face {
+    font-family:"gotico" ;
+    src: url("fontes/Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf") format("opentype");
+  }
+
+body{
+    background-image: linear-gradient(#f73c8a ,#CDBE78,#F2F2F2);
+    background-attachment: fixed;
+}
+
+/*Index*/
+.menu{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+}
+.menu li{
+    padding: 10px;
+}
+.menu li:hover{
+    color:#e5106a;  
+}
+.cabecalho{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: max-content;
+    height: 200px;
+}
+#arte{
+    width: 300px;
+    height: 200px;
+}
+.p_artigo{
+    font-size: 25pt;
+    font-family:"gotico";
+}
+.aside_artigo{
+    background-color: #f6cbea;
+    border-radius: 5px;
+    padding: 5px;
+}
+.article_artigo{
+    display: flex;
+    align-items: center;
+}
+.img_artigo{
+    border-radius: 5px;
+}
+.header_artigo{
+    margin-left: 5%;
+    background-color: #CDBE78;
+}
+.h2_artigo{
+    font-size: 40pt;
+    font-family: "gotico";
+    text-align: center;
+    background-color:#e5106a;
+    border-radius: 55%;
+}
+
+.artes{
+    width: 300px;
+    height: 400px;
+}
+.txt{
+    font-size: 20pt;
+    text-align: justify;
+    text-indent:20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: #383838;
+}
+#principal{
+    margin-left: 15%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    color: #e5106a;
+    background-color: #383838;
+    font-size: 11pt;
+}
+.add{
+    margin-left: 50%;
+}
+/*Cortes*/
+
+.section_pintar,.section_pintar2{
+    display:flex;
+    text-align: center;
+}
+.section_pintar2{
+    margin-left: 25%;
+
+
+}
+.img_pintar{
+    border-radius: 10%;
+}
+.p_pintar{
+    color: #383838;
+}
+.figure_corte,.aside_corte{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.section_corte{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: block;
+}
